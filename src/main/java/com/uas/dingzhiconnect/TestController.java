@@ -15,4 +15,9 @@ public class TestController {
     public String test2() {
         return "new version";
     }
+
+    @RequestMapping("/apple2")
+    public String apple2() {
+        return "new version apple2";
+    }
 }
