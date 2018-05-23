@@ -10,4 +10,9 @@ public class TestController {
     public String test() {
         return "hello world";
     }
+
+    @RequestMapping("/apple")
+    public String test2() {
+        return "new version";
+    }
 }
